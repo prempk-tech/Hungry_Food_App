@@ -1,0 +1,39 @@
+.redbox{
+    background-color: red;
+    height: 50px;
+    width: 100%;
+   }
+.login{
+   background-color: transparent;
+   border: none;
+   color: white;
+}
+.account{
+   background-color: transparent;
+   border:2px solid white;
+   padding: 5px;
+   margin: auto;
+   color: white;
+   
+}
+.button1{
+   position: absolute;
+   top: 10px;
+   right: 150px;
+}
+.icon{
+   border: 1px solid white;
+   height: 40px;
+   width: 40px;
+   position: absolute;
+   border-radius: 50%;
+   background-color: white;
+   position: absolute;
+   top: 4px;
+   left: 150px;
+   text-align: center;
+   color: red;
+   line-height: 35px;
+   font-stretch: normal;
+   font-weight: 600;
+} 

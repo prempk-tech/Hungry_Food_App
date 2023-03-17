@@ -1,0 +1,151 @@
+.heading {
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin: 20px 0;
+}
+
+.filterPanel {
+    height: 682px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    padding: 15px;
+}
+
+.resultPanel {
+    height: 291px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.filterPanelHeading {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.filterPanelSubHeading {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin: 15px 0;
+}
+
+.locationSelection {
+    height: 35px;
+    width: 100%;
+    padding: 8px 16.7px 7px 15px;
+    border-radius: 3px;
+    border: solid 1px #192f60;
+}
+
+.cuisineOption {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin: 10px;
+}
+
+.upperSection {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.lowerSection {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.resultsImage {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.NoItem {
+    color: red;
+    font-style: revert;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+.resultsHeading {
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.resultsSubHeading {
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.resultsAddress {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+@media screen and (max-width: 1220px) {
+
+    .resultsHeading,
+    .resultsSubHeading,
+    .resultsAddress {
+        margin-left: 70px;
+    }
+
+    .lowerSection {
+        padding-top: 0;
+    }
+
+    .lowerSection .resultsAddress {
+        margin-left: 0;
+        width: 100px;
+    }
+
+    .resultPanel {
+        margin-top: 30px;
+    }
+
+    .heading {
+        margin-left: 30px;
+    }
+
+}
